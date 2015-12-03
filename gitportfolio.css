@@ -1,0 +1,91 @@
+html{
+  height:100%;
+}
+body{
+  height:100%
+  ;}
+#wrapper{
+  width:80%;
+  background-image:url("betweentwotrees.jpeg");
+  margin:auto;
+  height:100%;
+}
+h1{
+  color:#cc3300;
+  text-align:right; 
+  font-family: 'Oswald', sans-serif; 
+}
+#primary_nav_wrap {
+  margin-top: 5px;
+  width:90px;
+}
+
+#primary_nav_wrap ul {
+  list-style: none;
+  position: relative;
+  width:80%;
+  margin: 0;
+  padding: 0
+}
+
+#primary_nav_wrap ul a {
+  display: block;
+  color: #cccc00;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 15px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width:102px;
+}
+
+#primary_nav_wrap ul li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height:50px;
+  width:118px;
+}
+#primary_nav_wrap ul li.current-menu-item {
+  margin:auto;
+}
+#primary_nav_wrap ul li:hover {
+  background: #f6f6f6;
+  width:130px;
+}
+
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    padding: 0;
+    margin-left: 125px;
+    width: 700px;
+}
+
+#primary_nav_wrap ul ul li {
+  width: 100px;
+  display: inline-block;
+  text-align:center;
+  margin:0px 10px;
+}
+
+#primary_nav_wrap ul ul a {
+  line-height: 100%;
+  padding: 10px 15px
+}
+
+#primary_nav_wrap ul ul ul {
+  top: 0;
+  left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+  display: block
+}
+
+#contact_us{
+  width:95px;
+}
